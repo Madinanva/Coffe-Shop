@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .general {
+    padding: 2rem 0rem;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 7;
+
+}
+
+header {
+    overflow: hidden;
+}
+
+header .general .second ul {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin: 0;
+}
+
+header .general .second ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+header .general .third ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header .general .third a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+header .general ul li a:hover {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #c7a17a;
+
+}
+
+header .general .third a:hover {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #c7a17a;
+}
+
+header .general .second ul {
+    padding: 0;
+    width: 0;
+}
+
+header .general .second .menu {
+    position: relative;
+    padding: 0;
+}
+
+header .general .second .menu ul {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    background-color: white;
+    padding: 3rem 5rem;
+    margin-top: 3rem;
+    left: 1rem;
+    display: flex;
+    padding: 0;
+}
+
+header .general .second .menu:hover ul {
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+    background-color: white;
+    text-align: center;
+    padding: 0rem 4rem;
+    margin-top: 2.57rem;
+    left: 3rem;
+    display: block;
+
+}
+
+header .general .second .menu:hover ul li {
+    padding-bottom: .3rem;
+}
+
+#first {
+    background-image: url(https://htmldemo.net/kofi/kofi/assets/images/hero-slider/home-2/slide-1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 18rem 0rem;
+    overflow: hidden;
+}
+
+#first h5 {
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+#first h2 {
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 66px;
+    font-weight: 600;
+    color: white;
+    transition-delay: .8s;
+    transition-duration: 1s;
+    padding-right: 25rem;
+}
+
+#first p {
+    margin-bottom: 50px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    transition-delay: .8s;
+    transition-duration: 1s;
+    padding-right: 35rem;
+}
+
+#first a {
+    background-color: rgb(199, 161, 122);
+    padding: 16px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 14rem;
+}
+
+#first a:hover {
+    background-color: #212529;
+    padding: 16px 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 14rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .general .third {
+    text-align: right;
+}
+
+#second {
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+
+#second .general span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(199, 161, 122);
+    margin-bottom: 15px;
+}
+
+#second .general {
+    padding-top: 6rem;
+}
+
+#second .general h2 {
+    margin-bottom: 30px;
+    padding-bottom: 18px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 15px;
+
+}
+
+#second .general h2::after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    border: 2px solid #212529;
+    padding-right: 4rem;
+
+}
+
+#second .general .frt {
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+
+}
+
+#second .general .nd {
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(51, 51, 51);
+
+}
+
+#second .general a {
+    padding: 16px 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: #212529;
+    border-radius: 5rem;
+}
+
+#second .general a:hover {
+    padding: 16px 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: #212529;
+    background-color: rgb(199, 161, 122);
+    border-radius: 5rem;
+}
+
+#third {
+    overflow: hidden;
+}
+
+#third .general {
+    padding-top: 5em;
+}
+
+#third .general p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.25px;
+    color: rgb(199, 161, 122);
+}
+
+#third .general h2 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.25px;
+    color: rgb(31, 34, 38);
+}
+
+#third .general2 h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(31, 34, 38);
+}
+
+#third .general2 p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24.5px;
+    color: rgb(51, 51, 51);
+}
+
+#third .general2 .box {
+    border: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    padding: 20px;
+}
+
+#third .general2 {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fourth {
+    overflow: hidden;
+}
+
+#fourth .general {
+    margin-top: 8rem;
+}
+
+#fourth .general p {
+    color: rgb(199, 161, 122);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .25px;
+
+}
+
+#fourth .general h2 {
+    color: rgb(31, 34, 38);
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+
+}
+
+#fourth .general2 {
+    margin-top: 3rem;
+}
+
+#fourth .general2 p {
+    color: rgb(199, 161, 122);
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+#fourth .general2 h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(31, 34, 38);
+    margin-bottom: 1rem;
+
+}
+
+#fourth .general2 .right {
+    border: 1px solid rgb(229, 229, 229);
+    color: rgb(51, 51, 51);
+    padding: 2rem 2.5rem 0rem;
+}
+
+#fourth .general2 .right form input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid rgb(229, 229, 229);
+}
+
+#fourth .general2 .right form input:focus {
+    outline: 1px solid rgb(199, 161, 122);
+}
+
+#fourth .general2 .right form textarea:focus {
+    outline: 1px solid rgb(199, 161, 122);
+}
+
+#fourth .general2 .left iframe {
+    width: 100%;
+}
+
+#fourth .right textarea {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px 20px 50px;
+    width: 100%;
+    border: 1px solid rgb(229, 229, 229);
+}
